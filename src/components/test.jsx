@@ -13,11 +13,18 @@ import boxmeal from"../images/boxmeal.png";
 
 const test = () => {
   return (
-   <div className="menubartitle"> 
-    <h1>Food Menu</h1>
+   <div className="menubartitle" id="menu"> 
+    <section id="burger"><h1>Food Menu</h1></section>
+    <section id="pizza"></section>
+    <section id="chickenbucket"></section>
+    <section id="snacks"></section>
+    <section id="chickenroll"></section>
+    <section id="fries"></section>
+    <section id="popcorn"></section>
+    <section id="drinks"></section>
     <div className="menubar">
       <div className="food-card">
-  <div className="food-card-inner">
+    <div className="food-card-inner">
 
     {/* Front */}
     <div className="food-card-front">

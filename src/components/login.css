@@ -1,0 +1,72 @@
+.login-container{
+    width: 100%;
+    max-width: 500px;
+    margin: 40px auto;
+    padding: 20px;
+    background: white;
+    font-family: Arial, sans-serif;
+}
+
+.login-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.close-btn{
+    font-size: 30px;
+    cursor: pointer;
+}
+
+h1{
+    font-size: 50px;
+    margin-top: 20px;
+}
+
+.create-account{
+    color: #ff5a00;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.line{
+    width: 40px;
+    height: 2px;
+    background: black;
+    margin-top: 20px;
+}
+
+.food-image{
+    width: 120px;
+}
+
+.phone-input{
+    width: 100%;
+    height: 70px;
+    margin-top: 30px;
+    padding-left: 20px;
+    font-size: 18px;
+    border: 1px solid #ccc;
+    outline: none;
+}
+
+.login-btn{
+    width: 100%;
+    height: 60px;
+    margin-top: 30px;
+    background: #ff5a00;
+    color: white;
+    border: none;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.terms{
+    margin-top: 20px;
+    line-height: 25px;
+}
+
+.terms span{
+    font-weight: bold;
+}

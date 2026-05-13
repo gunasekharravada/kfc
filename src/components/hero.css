@@ -1,0 +1,117 @@
+
+.hero{
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  margin-top: 26px;
+}
+
+
+/* Left Side */
+
+.hero-left{
+  width:50%;
+  margin-left: 65px;
+  opacity: 0;
+  transform: translateX(-100px);
+  animation: slideIn 1.5s ease forwards;
+}
+
+@keyframes slideIn{
+  to{
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+.hero-left span{
+  font-size:70px;
+  font-weight:bold;
+}
+
+.hero-left p{
+  color:#555;
+  max-width:700px;
+  font-weight: 25px;
+}
+
+/* Buttons */
+.btn3{
+    margin-right: 30px;
+    margin-top: 20px;
+    background-color:rgb(196,21,21);
+    color:white;
+    padding:10px 25px;
+    cursor: pointer;
+    font-weight: 550;
+    font-size: 17px;
+    transition: 0.6s ease;
+    border-color:transparent;
+}
+.btn3:hover{
+    background-color: transparent;
+    border: 1px solid rgb(196,21,21);
+    color:  rgb(196,21,21);
+}
+.btn4{
+    border:1px solid rgb(196,21,21);
+    background-color: white;
+    color:rgb(196,21,21);
+    padding:10px 25px;
+    cursor: pointer;
+    font-size: 17px;
+    font-weight:550;
+    border-color:rgb(196,21,21)
+}
+.btn4:hover{
+    background-color: rgb(196,21,21);
+    border: none;
+    color:  white;
+}
+.delivery-text{
+  font-size: 18px;
+}
+
+/* Delivery icons */
+
+.delivery-icons img{
+  width:45px;
+  margin-right:20px;
+  height: 45px;
+}
+
+/* Right side */
+
+.hero-right{
+  width:50%;
+  display:flex;
+  justify-content:center;
+  opacity: 0;
+  transform: translateX(100px);
+  animation: slideIn 1.5s ease forwards;
+}
+
+@keyframes slideIn{
+  to{
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+.hero-image{
+  width:630px;
+}
+.menubartitle{
+  margin-block: 50px;
+  padding-inline: 40px;
+}
+.menubartitle h1{
+ text-align: center;
+}
+.menubartitle h1:hover{
+ color: #c8102e;
+}
+.menubar{
+  display: grid;
+  grid-template-columns: repeat(5,1fr);
+}

@@ -5,7 +5,7 @@ import kfc from "../images/kfc.webp";
 
 const Hero = () => {
   return (
-    <div className="hero">
+    <div className="hero" id='home'>
   <div className="hero-left">
     <span>TASTE THE BEST <br/> KFC CHICKEN.</span>
 
