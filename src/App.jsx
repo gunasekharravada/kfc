@@ -2,16 +2,16 @@ import React from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 import Navbar from "./components/Navbar";
-import Scroll from "./components/scroll";
+import Scroll from "./components/Scroll";
 import Hero from "./components/Hero";
-import Test from "./components/test";
-import Deals from "./components/deals";
-import Temp from "./components/temp";
-import Menu from "./components/menu";
-import Foot from "./components/foot";
+import test from "./components/test";
+import Deals from "./components/Deals";
+import temp from "./components/temp";
+import menu from "./components/menu";
+import foot from "./components/foot";
 
-import Login from "./components/login";
-import Signup from "./components/signup";
+import login from "./components/login";
+import signup from "./components/signup";
 
 import "./app.css";
 
@@ -20,11 +20,11 @@ const Home = () => {
     <>
       <Scroll />
       <Hero />
-      <Test />
+      <test />
       <Deals />
-      <Temp />
-      <Menu />
-      <Foot />
+      <temp />
+      <menu />
+      <foot />
     </>
   );
 };
@@ -36,7 +36,7 @@ const App = () => {
 
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/signin" element={<Login />} />
+        <Route path="/signin" element={<login />} />
       </Routes>
     </BrowserRouter>
   );
