@@ -13,7 +13,7 @@ import foot from "./components/foot";
 import login from "./components/login";
 import signup from "./components/signup";
 
-import "./app.css";
+import "./App.css";
 
 const Home = () => {
   return (
