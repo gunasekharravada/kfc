@@ -2,7 +2,7 @@ import React from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 import Navbar from "./components/Navbar";
-import Scroll from "./components/Scroll";
+import scroll from "./components/scroll";
 import Hero from "./components/Hero";
 import test from "./components/test";
 import Deals from "./components/Deals";
@@ -18,7 +18,7 @@ import "./app.css";
 const Home = () => {
   return (
     <>
-      <Scroll />
+      <scroll />
       <Hero />
       <test />
       <Deals />
