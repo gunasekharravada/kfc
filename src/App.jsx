@@ -18,7 +18,7 @@ import "./app.css";
 const Home = () => {
   return (
     <>
-      <scroll />
+      <scroll/>
       <Hero />
       <test />
       <Deals />
