@@ -2,7 +2,7 @@ import React from 'react';
 import "./foot.css";
 import logo from "../images/logo.webp";
 
-const foot = () => {
+const Foot = () => {
   return (
     <footer className="footer" id="about">
       <div className="footer-wrapper">
@@ -101,4 +101,4 @@ const foot = () => {
   )
 }
 
-export default foot
+export default Foot

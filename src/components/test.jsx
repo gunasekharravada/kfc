@@ -11,7 +11,7 @@ import crispychicken from"../images/crispychicken.png";
 import boxmeal from"../images/boxmeal.png";
 
 
-const test = () => {
+const Test = () => {
   return (
    <div className="menubartitle" id="menu"> 
     <section id="burger"><h1>Food Menu</h1></section>
@@ -203,4 +203,4 @@ const test = () => {
   )
 }
 
-export default test
+export default Test;
