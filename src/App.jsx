@@ -4,13 +4,13 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Navbar from "./components/Navbar";
 import Scroll from "./components/Scroll";
 import Hero from "./components/Hero";
-import test from "./components/test";
+import Test from "./components/Test";
 import Deals from "./components/Deals";
-import temp from "./components/temp";
-import menu from "./components/menu";
-import foot from "./components/foot";
+import Temp from "./components/temp";
+import Menu from "./components/Menu";
+import Foot from "./components/Foot";
 
-import login from "./components/login";
+import Login from "./components/Login";
 import signup from "./components/signup";
 
 import "./App.css";
@@ -20,11 +20,11 @@ const Home = () => {
     <>
       <Scroll />
       <Hero />
-      <test />
+      <Test />
       <Deals />
-      <temp />
-      <menu />
-      <foot />
+      <Temp />
+      <Menu />
+      <Foot />
     </>
   );
 };
@@ -36,7 +36,7 @@ const App = () => {
 
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/signin" element={<login />} />
+        <Route path="/signin" element={<Login />} />
       </Routes>
     </BrowserRouter>
   );

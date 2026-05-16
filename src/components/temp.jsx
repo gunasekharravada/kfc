@@ -97,9 +97,8 @@ const Offers = () => {
       <h1>Pick your favourite bucket everything in one!</h1>
 
       <div className="offers-grid">
-        {offersData.map((item) => (
-          <div key={item.id} className="card">
-            
+        {offersData.map((item,index) => (
+          <div key={`offer-${index}`} className="card">
             {/* IMAGE SECTION */}
             <div className="image-box">
               <img src={item.img} alt={item.title} />
