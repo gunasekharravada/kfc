@@ -1,5 +1,5 @@
 import React from 'react';
-import burger from "../images/burger.webp";
+import Burger from "../images/Burger.webp";
 import kfcbucket1 from "../images/kfcbucket1.png";
 import snacks from "../images/snacks.webp";
 import chickenroll from "../images/chickenroll.jpg";
