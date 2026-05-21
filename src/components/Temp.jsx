@@ -8,7 +8,7 @@ import cooldrink3 from "../images/cooldrink3.jpg";
 import  offercard2 from '../images/offercard2.png';
 import  offercard1 from '../images/offercard1.png';
 import  Veg2 from '../images/Veg2.webp';
-import Kfcrewards from '../images/Kfcrewards.jpeg';
+import Kfcrewards from '../images/Kfcrewards.jpg';
 import "./deals.css";
 
 const offersData = [
