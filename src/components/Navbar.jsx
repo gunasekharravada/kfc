@@ -4,7 +4,7 @@ import logo from "../images/logo.webp";
 import { useNavigate } from "react-router-dom";
 import { Link } from "react-router-dom";
 
-import { auth } from "../firebase/firebaseConfig";
+import { auth } from "../firebase/firebaseconfig";
 
 import {onAuthStateChanged,signOut} from "firebase/auth";
 
