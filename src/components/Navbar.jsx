@@ -3,9 +3,9 @@ import React, { useState, useEffect } from 'react';
 import logo from "../images/logo.webp";
 import { useNavigate } from "react-router-dom";
 import { Link } from "react-router-dom";
-
+import { FaShoppingCart } from "react-icons/fa";
 import { auth } from "../firebase/firebaseconfig";
-
+import profileicon from "../images/profileicon.webp";
 import {onAuthStateChanged,signOut} from "firebase/auth";
 
 const Navbar = () => {
@@ -129,6 +129,19 @@ const Navbar = () => {
 
       </div>
 
+      {/* CART BUTTON */}
+
+<div className="cart-container">
+
+  <button className="cart-btn">
+
+    <FaShoppingCart className="cart-icon" />
+
+    <span>Cart</span>
+
+  </button>
+
+</div>
       {/* USER SECTION */}
 
       {user ? (
@@ -139,8 +152,8 @@ const Navbar = () => {
           onMouseLeave={() => setShowMenu(false)}
         >
 
-        <img src={user?.photoURL ||
-    "https://cdn-icons-png.flaticon.com/512/3177/3177440.png"
+        <img src={
+    profileicon
   } alt="profile"className="profile-icon"
 />
 
