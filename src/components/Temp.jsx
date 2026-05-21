@@ -1,12 +1,12 @@
 import React from "react";
 import zingerburger from"../images/zingerburger.png";
 import crispychicken2 from "../images/crispychicken2.jpg";
-import Fries1 from "../images/fries1.png";
+import fries1 from "../images/fries1.png";
 import chickenroll from "../images/chickenroll.jpg";
 import Popcorn from "../images/popcorn.png";
-import Cooldrink3 from "../images/Cooldrink3.jpg";
+import cooldrink3 from "../images/cooldrink3.jpg";
 import  offercard2 from '../images/offercard2.png';
-import  offercard1 from '../images/Offercard1.png';
+import  offercard1 from '../images/offercard1.png';
 import  Veg2 from '../images/Veg2.webp';
 import Kfcrewards from '../images/Kfcrewards.jpeg';
 import "./deals.css";
@@ -28,19 +28,19 @@ const offersData = [
     id: 3,
     title: "UPTO RS 100 OFF ON FIRST ORDERS",
     desc: "Min. Order Value 299",
-    img: Offercard1,
+    img: offercard1,
   },
   {
     id: 4,
     title: "FREE DELIVERY ON FIRST 3ORDERS",
     desc: "Min Order Value 399",
-    img: Offercard2,
+    img: offercard2,
   },
   {
     id: 5,
     title: "FREE FRIES",
     desc: "Min. Order Value 499",
-    img: Fries1,
+    img: fries1,
   },
   {
     id: 6,
@@ -64,7 +64,7 @@ const offersData = [
     id: 8,
     title: "FREE PEPSI",
     desc: "Min. Order Value 199",
-    img: Cooldrink3,
+    img: cooldrink3,
   },
     {
     id: 9,
