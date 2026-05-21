@@ -3,12 +3,12 @@ import zingerburger from"../images/zingerburger.png";
 import crispychicken2 from "../images/crispychicken2.jpg";
 import fries1 from "../images/fries1.png";
 import chickenroll from "../images/chickenroll.jpg";
-import Popcorn from "../images/popcorn.png";
+import popcorn from "../images/popcorn.png";
 import cooldrink3 from "../images/cooldrink3.jpg";
 import  offercard2 from '../images/offercard2.png';
 import  offercard1 from '../images/offercard1.png';
-import  Veg2 from '../images/Veg2.webp';
-import Kfcrewards from '../images/Kfcrewards.jpg';
+import  veg2 from '../images/Veg2.webp';
+import  kfcrewards from '../images/kfcrewards.jpg';
 import "./deals.css";
 
 const offersData = [
@@ -46,19 +46,19 @@ const offersData = [
     id: 6,
     title: "FREE VEG",
     desc: "Min. Order Value 399",
-    img: Veg2,
+    img: veg2,
   },
   {
     id: 7,
     title: "FREE DOUBLE CHICKEN ROLL",
     desc: "Min. Order Value 999",
-    img: Chickenroll,
+    img: chickenroll,
   },
   {
     id: 8,
     title: "FREE POPCORN",
     desc: "Min. Order Value 999",
-    img: Popcorn,
+    img: popcorn,
   },
     {
     id: 8,
@@ -70,19 +70,19 @@ const offersData = [
     id: 9,
     title: "KFC REWARDS",
     desc: "Min. Order Value 799",
-    img: Kfcrewards,
+    img: kfcrewards,
   },
   {
     id: 10,
     title: "KFC REWARDS",
     desc: "Min. Order Value 999",
-    img: Kfcrewards,
+    img: kfcrewards,
   },
   {
     id: 10,
     title: "KFC REWARDS",
     desc: "Min. Order Value Above 1299",
-    img: Kfcrewards,
+    img: kfcrewards,
   },
 ];
 
