@@ -28,7 +28,7 @@ const Test = () => {
 
     {/* Front */}
     <div className="food-card-front">
-      <img src={burger} alt="Chicken" />
+      <img src={Burger} alt="Chicken" />
       <h3>BURGERS</h3>
     </div>
 
