@@ -1,5 +1,5 @@
 import React from "react";
-import "./menu.css";
+import "./Menu.css";
 import Allinonebucket from "../images/Allinonebucket.png";
 import Goldburger from "../images/Goldburger.png";
 import Burger from "../images/burger.webp";
